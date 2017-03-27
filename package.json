@@ -1,0 +1,52 @@
+{
+  "name": "nxtlvl-rctjs-2017a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server ./src/index.js --config ./config/development.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NXTLVL-Academy/RCT-2017A.git"
+  },
+  "author": "Kevin Velasco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NXTLVL-Academy/RCT-2017A/issues"
+  },
+  "homepage": "https://github.com/NXTLVL-Academy/RCT-2017A#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.6.0",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-decorators": "^6.22.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-flow-strip-types": "^6.21.0",
+    "babel-polyfill": "^6.20.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-es2015-loose": "^8.0.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-preset-stage-1": "^6.22.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "babel-preset-stage-3": "^6.17.0",
+    "babel-runtime": "^6.22.0",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^2.0.0-beta",
+    "file-loader": "^0.9.0",
+    "flow": "^0.2.3",
+    "html-webpack-plugin": "^2.24.1",
+    "node-sass": "^3.0.0",
+    "postcss-import": "^9.1.0",
+    "postcss-loader": "^1.2.1",
+    "raw-loader": "^0.5.1",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "2.1.0-beta.28",
+    "webpack-dev-server": "^2.1.0-beta"
+  }
+}
